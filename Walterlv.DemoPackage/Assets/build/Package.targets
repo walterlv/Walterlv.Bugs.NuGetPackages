@@ -1,0 +1,12 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)..\src\DemoView.xaml.cs" />
+    <Page Include="$(MSBuildThisFileDirectory)..\src\DemoView.xaml" />
+  </ItemGroup>
+
+</Project>

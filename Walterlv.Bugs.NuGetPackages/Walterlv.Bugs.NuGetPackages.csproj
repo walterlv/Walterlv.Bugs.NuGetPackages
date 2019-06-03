@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWpf>True</UseWpf>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Walterlv.DemoPackage" Version="0.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="C:\Users\lvyi\.nuget\packages\walterlv.demopackage\0.1.0\build\..\src\DemoView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  
+</Project>

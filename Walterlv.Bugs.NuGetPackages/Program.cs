@@ -1,5 +1,5 @@
 ﻿using System;
-using DemoPackage;
+//using DemoPackage;
 
 namespace Walterlv.Bugs.NuGetPackages
 {
@@ -8,8 +8,8 @@ namespace Walterlv.Bugs.NuGetPackages
         [STAThread]
         static void Main(string[] args)
         {
-            var type = typeof(DemoView);
-            Console.WriteLine(type.ToString());
+            //var type = typeof(DemoView);
+            //Console.WriteLine(type.ToString());
         }
     }
 }

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net45</TargetFramework>
     <UseWpf>True</UseWpf>
   </PropertyGroup>
 
@@ -11,7 +11,43 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Update="C:\Users\lvyi\.nuget\packages\dotnetcampus.easiplugin.sdk\0.1.0-alpha\src\Views\InstallWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
     <Page Update="C:\Users\lvyi\.nuget\packages\walterlv.demopackage\0.1.0\build\..\src\DemoView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="C:\Users\lvyi\.nuget\packages\walterlv.demopackage\0.1.0\build\..\src\Views\Window.Universal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="C:\Users\lvyi\.nuget\packages\walterlv.demopackage\0.1.0\build\..\src\Views\InstallWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="C:\Users\lvyi\.nuget\packages\walterlv.demopackage\0.1.0\build\..\src\InstallWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="C:\Users\lvyi\.nuget\packages\walterlv.demopackage\0.1.0\build\..\src\Views\DemoView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="C:\Users\lvyi\.nuget\packages\walterlv.demopackage\0.1.0\build\..\src\UniversalWindowStyle.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

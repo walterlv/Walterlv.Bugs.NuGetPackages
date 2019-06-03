@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)..\src\DemoView.xaml.cs" />
-    <Page Include="$(MSBuildThisFileDirectory)..\src\DemoView.xaml" />
+    <Compile Include="$(MSBuildThisFileDirectory)..\src\UniversalWindowStyle.xaml.cs" />
+    <Page Include="$(MSBuildThisFileDirectory)..\src\UniversalWindowStyle.xaml" />
   </ItemGroup>
 
 </Project>

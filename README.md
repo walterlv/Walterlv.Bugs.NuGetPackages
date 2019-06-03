@@ -1,9 +1,12 @@
-# Walterlv.Demo
+# WPF NuGet Source Package Bug
 
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+This repository is a minimal reproduction for Issue:
 
-[![LICENSE](https://img.shields.io/badge/license-NPL%20(The%20996%20Prohibited%20License)-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+- [When including any Page item via NuGet package props/targets files, all included Compile items will lost. · Issue #811 · dotnet/wpf](https://github.com/dotnet/wpf/issues/811)
 
-用于放博客用到的代码，大量的代码都是测试代码，请不要直接复制里面代码到自己项目
+## How to Reproduce
 
-本仓库的代码协议是 996 协议，不允许任何加班的公司使用本仓库代码
+1. Clone this repository;
+1. Compile `Walterlv.DemoPackage` project to generate a NuGet package file `Walterlv.DemoPackage.nupkg`;
+1. Run `dotnet restore` for this solution so that this package can be installed into `Walterlv.Bugs.NuGetPackages` project;
+1. Compile `Walterlv.Bugs.NuGetPackages` project and you'll get an compiling error.
